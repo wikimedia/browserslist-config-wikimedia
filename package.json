@@ -1,0 +1,41 @@
+{
+	"name": "browserslist-config-wikimedia",
+	"version": "0.1.0",
+	"description": "Wikimedia shareable Browserslist configuration",
+	"keywords": [
+		"browserslist",
+		"browserslist-config",
+		"browserslist-shareable-config",
+		"wikipedia",
+		"wikimedia"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wikimedia/browserslist-config-wikimedia.git"
+	},
+	"homepage": "https://github.com/wikimedia/browserslist-config-wikimedia",
+	"bugs": "https://github.com/wikimedia/browserslist-config-wikimedia/issues",
+	"contributors": [
+		"Volker E. <volker.e@wikimedia.org>"
+	],
+	"engine": {
+		"node": ">=10"
+	},
+	"main": "index.js",
+	"files": [
+		"CHANGELOG.md",
+		"LICENSE",
+		"index.js"
+	],
+	"devDependencies": {
+		"eslint-config-wikimedia": "0.20.0"
+	},
+	"scripts": {
+		"test": "npm -s run test:lint",
+		"test:lint": "npm run -s test:lint:js",
+		"test:lint:js": "npm -s run linter:js -- .",
+		"format:js": "npm -s run linter:js -- --fix .",
+		"linter:js": "eslint --cache --max-warnings 0 --ext .js"
+	}
+}
