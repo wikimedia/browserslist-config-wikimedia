@@ -22,11 +22,12 @@
 	"engine": {
 		"node": ">=10"
 	},
-	"main": "index.js",
+	"main": "basic.js",
 	"files": [
 		"CHANGELOG.md",
 		"LICENSE",
-		"index.js"
+		"basic.js",
+		"modern.js"
 	],
 	"devDependencies": {
 		"eslint-config-wikimedia": "0.20.0"
