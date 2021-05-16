@@ -41,5 +41,12 @@ For example, when configuring [@babel/preset-env](https://babeljs.io/docs/en/bab
 }
 ```
 
+4. To override or slightly adapt one of the available Browserslist configurations, modern or basic, add your overrides to the list. Exemplified with `.browerslistrc`:
+```
+extends browserslist-config-wikimedia/basic
+not IE <= 10
+```
+
+
 ## License
 This is available under the [MIT LICENSE](LICENSE).
