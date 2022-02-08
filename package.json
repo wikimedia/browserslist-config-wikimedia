@@ -1,6 +1,6 @@
 {
 	"name": "browserslist-config-wikimedia",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "Wikimedia shareable Browserslist configuration",
 	"keywords": [
 		"browserslist",
@@ -17,7 +17,8 @@
 	"homepage": "https://github.com/wikimedia/browserslist-config-wikimedia",
 	"bugs": "https://github.com/wikimedia/browserslist-config-wikimedia/issues",
 	"contributors": [
-		"Volker E. <volker.e@wikimedia.org>"
+		"Volker E. <volker.e@wikimedia.org>",
+		"Michael Große <michael.grosse@wikimedia.de>"
 	],
 	"engine": {
 		"node": ">=10"
@@ -27,7 +28,8 @@
 		"CHANGELOG.md",
 		"LICENSE",
 		"basic.js",
-		"modern.js"
+		"modern.js",
+		"modern-es6-only.js"
 	],
 	"devDependencies": {
 		"eslint-config-wikimedia": "0.22.1"
