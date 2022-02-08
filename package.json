@@ -30,7 +30,7 @@
 		"modern.js"
 	],
 	"devDependencies": {
-		"eslint-config-wikimedia": "0.20.0"
+		"eslint-config-wikimedia": "0.22.1"
 	},
 	"scripts": {
 		"test": "npm -s run test:lint",
