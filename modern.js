@@ -8,5 +8,5 @@ module.exports = [
 	'IE >= 11',
 	'Safari >= 9.1',
 	'iOS >= 9',
-	'Android >= 4.3'
+	'Android >= 5'
 ];
