@@ -2,6 +2,10 @@
 
 Versions and bullets are arranged contextually chronologically from latest to oldest.
 
+## v0.4.0 / 2022-04-20
+* basic: Bump requirements for 2022 (James D. Forrester)
+* modern: Bump Android to >= 5 (Ed Sanders)
+
 ## v0.3.0 / 2022-02-08
 * build: Update dependencies to latest (Volker E)
 * Add 'modern-es6-only' config to be used by Vue 3 apps (Michael Große)
