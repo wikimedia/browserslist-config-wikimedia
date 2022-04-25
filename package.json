@@ -23,22 +23,19 @@
 	"engine": {
 		"node": ">=10"
 	},
-	"main": "basic.js",
+	"main": "basic.json",
 	"files": [
 		"CHANGELOG.md",
 		"LICENSE",
-		"basic.js",
-		"modern.js",
-		"modern-es6-only.js"
+		"basic.json",
+		"modern.json",
+		"modern-es6-only.json"
 	],
 	"devDependencies": {
 		"eslint-config-wikimedia": "0.22.1"
 	},
 	"scripts": {
-		"test": "npm -s run test:lint",
-		"test:lint": "npm run -s test:lint:js",
-		"test:lint:js": "npm -s run linter:js -- .",
-		"format:js": "npm -s run linter:js -- --fix .",
-		"linter:js": "eslint --cache --max-warnings 0 --ext .js"
+		"test": "npm -s run lint",
+		"lint": "eslint --cache --max-warnings 0 ."
 	}
 }

@@ -1,0 +1,10 @@
+[
+	"Chrome >= 31",
+	"Firefox >= 39",
+	"Opera >= 18",
+	"Edge >= 12",
+	"IE >= 11",
+	"Safari >= 9.1",
+	"iOS >= 9",
+	"Android >= 5"
+]
