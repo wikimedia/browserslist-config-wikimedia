@@ -32,7 +32,7 @@
 		"modern-es6-only.json"
 	],
 	"devDependencies": {
-		"eslint-config-wikimedia": "0.22.1"
+		"eslint-config-wikimedia": "0.24.0"
 	},
 	"scripts": {
 		"test": "npm -s run lint",
