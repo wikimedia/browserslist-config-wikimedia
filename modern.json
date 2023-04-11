@@ -1,10 +1,9 @@
 [
-	"last 2 Chrome versions",
-	"last 2 Firefox versions",
-	"last 2 Opera versions",
-	"last 2 Edge versions",
-	"IE >= 11",
-	"Safari >= 9.1",
-	"iOS >= 9",
+	"Last 3 years and Chrome > 0",
+	"Last 3 years and Opera > 0",
+	"Last 3 years and Edge > 0",
+	"Firefox >= 91",
+	"Safari >= 11",
+	"iOS >= 11",
 	"Android >= 5"
 ]
