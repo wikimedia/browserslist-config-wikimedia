@@ -32,10 +32,11 @@
 		"modern-es6-only.js"
 	],
 	"devDependencies": {
-		"eslint-config-wikimedia": "0.24.0"
+		"eslint-config-wikimedia": "0.24.0",
+		"qunit": "^2.19.4"
 	},
 	"scripts": {
-		"test": "npm -s run lint",
+		"test": "qunit test/test.js && npm -s run lint",
 		"lint": "eslint --cache --max-warnings 0 ."
 	}
 }
