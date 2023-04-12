@@ -29,7 +29,7 @@
 		"LICENSE",
 		"basic.json",
 		"modern.json",
-		"modern-es6-only.json"
+		"modern-es6-only.js"
 	],
 	"devDependencies": {
 		"eslint-config-wikimedia": "0.24.0"
