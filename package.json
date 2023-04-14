@@ -1,6 +1,6 @@
 {
 	"name": "browserslist-config-wikimedia",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "Wikimedia shareable Browserslist configuration",
 	"keywords": [
 		"browserslist",

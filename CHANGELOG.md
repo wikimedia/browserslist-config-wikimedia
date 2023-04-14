@@ -2,9 +2,12 @@
 
 Versions and bullets are arranged contextually chronologically from latest to oldest.
 
+## v0.5.1 / 2023-04-14
+* modern-es6-only: Fix deprecated modern-es6-only list (Ed Sanders)
+
 ## v0.5.0 / 2023-04-12
 * modern: Drop IE11, bump Safari to 11+, change "last 2 versions" to "last 3 years", and Firefox ESR (Ed Sanders)
-* modern-es6-only: DEPRECATED. Use 'modern' instead which is now also limited to ES6.
+* modern-es6-only: DEPRECATED. Use 'modern' instead which is now also limited to ES6. (Ed Sanders)
 
 ## v0.4.0 / 2022-04-20
 * basic: Bump requirements for 2022 (James D. Forrester)
