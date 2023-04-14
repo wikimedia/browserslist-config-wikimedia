@@ -1,3 +1,3 @@
 'use strict';
 
-return require( './modern' );
+module.exports = require( './modern' );
