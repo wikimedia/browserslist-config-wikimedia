@@ -1,0 +1,14 @@
+stages:
+  - test
+
+test:
+  stage: test
+  image:
+    name: docker-registry.wikimedia.org/releng/node16-test-browser:latest
+    entrypoint: [""]
+  script:
+    - node --version
+    - npm --version
+    - npm ci
+    - npm test
+
